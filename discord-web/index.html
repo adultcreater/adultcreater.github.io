@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="description" content="Discord 装飾文字の使い方一覧">
+        <title>himo official site | How to use Discord</title>
+        <link rel="stylesheet" href="./css/discord-main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./js/page-top.js">
+    </script>
+    </head>
+
+    <body>
+            <p id="PageTopBtn"><a href="#head_menu">▲Page Top</a></p>
+            <div class="head_menu" id="head_menu">
+                    <header>
+                        <h4>メニュー</h4>
+                        <ul>
+                            <li>
+                                <a class="main" href="#contents-title">初めに</a>
+                            </li>
+                            <li>
+                                <a class="sub" href="#hutozi">太字</a>
+                            </li>
+                            <li>
+                                <a class="sub" href="#embed">埋め込み文字</a>
+                            </li>
+                            <li>
+                                <a class="sub" href="#torikesi">取り消し文字</a>
+                            </li>
+                            <li>
+                                    <a class="sub" href="#kasen">下線文字</a>
+                            </li>
+                            <li>
+                                    <a class="sub" href="#spoiler">隠し文字</a>
+                            </li>
+                            <li>
+                                    <a class="sub" href="#inyou">引用文字</a>
+                                </li>
+                        </ul>
+                    </header>
+                </div>
+        <div>
+        
+            <!--タイトル-->
+            <div class="contents-title" id="contents-title">
+                <h1>このサイトに使われてるスクショは既に消去済みのサーバーを使ってます。
+                    万が一何かある場合は、ブラウザバックを推奨します。
+                </h1>
+            </div>
+
+
+            <!--太字の説明-->
+            <div class="hutozi" id="hutozi">
+                <p class="Class">Class: <span>太字</span></p>
+                <img src="pic/discord-hutozi.png" width="300" height="100" alt=" picture is None">
+                <p class="description">上の画像は文字を太字にしてます。<br>
+                普通の文字と比べると以下の通りです。</p>
+                <img src="pic/discord-hutozi-hikaku.png" width="300" height="100" alt=" picture is None">
+                <p>やり方:</p>
+                <code> **ここに太字にしたい文字を入れる**</code>
+                <hr id="main" noshade="noshade" size="1">
+            </div>
+            <br>
+            <br>
+            <!--埋め込み文字の説明-->
+            <div class="embed" id="embed">
+                    <p class="Class">Class: <span>埋め込み文字</span></p>
+                    <p class="not-sumaho">スマホの人は入力できません。</p>
+                    <img src="pic/discord-embed-title.png" width="300" height="100" alt=" picture is None">
+                    <p class="description">上の画像は文字を埋め込みメッセージにしてます。<br>
+                    普通の文字と比べると以下の通りです。</p>
+                    <img src="pic/discord-embed-hikaku.png" width="300" height="100" alt=" picture is None">
+                    <p>やり方:</p>
+                <code> `ここに埋め込みしたいメッセージを入れる。`</code>
+                <div class="ouyou">
+                    <h4>応用として</h4>
+                    <p>このやり方では一行のみ(多分)ですが、複数行に対応することもできます。
+                    <br>
+                    <img src="pic/discord-lines-embed.png" width="500" height="100" alt=" picture is None">
+                    <p>やり方:</p>
+                    <code> ```ここに埋め込みしたいメッセージを入れる。```</code>
+                    </p>
+                    <p>又、プログラムのコードを書く際に、<span>```</span>の後に言語名を入れると色付きで表示できます。
+                    <br>
+                    <img src="pic/discord-pro-embed.png" width="500" height="100" alt=" picture is None">
+                    <p>やり方:</p>
+                    <code> ```言語名(上の例では<span>Python</span>)<span>ここで改行必須です</span><br>
+                        ここに埋め込みしたいメッセージを入れる。```</code>
+                        <hr id="main" noshade="noshade" size="1">
+                    </p>
+                </div>
+            </div>
+            <!--取り消し文字の説明-->
+            <div class="torikesi" id="torikesi">
+                    <p class="Class">Class: <span>取り消し文字</span></p>
+                    <img src="pic/discord-torikesi-titles.png" width="400" height="100" alt=" picture is None">
+                    <p class="description">上の画像は文字を取り消し文字にしてます。<br>
+                        普通の文字と比べると以下の通りです。</p>
+                        <img src="pic/discord-torikesi-hikaku.png" width="400" height="125" alt=" picture is None">
+                        <p>やり方:</p>
+                <code> ~~ここに埋め込みしたいメッセージを入れる。~~</code>
+                <hr id="main" noshade="noshade" size="1">
+            </div>
+            <!--下線文字の説明-->
+            <div class="kasen" id="kasen">
+                <p class="Class">Class: <span>下線文字</span></p>
+                    <img src="pic/discord-kasen.png" width="400" height="100" alt=" picture is None">
+                    <p class="description">上の画像は文字を下線文字にしてます。<br>
+                        普通の文字と比べると以下の通りです。</p>
+                        <img src="pic/discord-kasen-hikaku.png" width="400" height="105" alt=" picture is None">
+                        <p>やり方:</p>
+                <code> __ここに埋め込みしたいメッセージを入れる。__</code>
+                <p class="tyuui">半角で<span>_</span>を二回入力してください。</p>
+                <hr id="main" noshade="noshade" size="1">
+            </div>
+            <!--隠し文字の説明-->
+            <div class="spoiler" id="spoiler">
+                    <p class="Class">Class: <span>隠し文字</span></p>
+                    <img src="pic/discord-spoiler.png" width="400" height="100" alt=" picture is None">
+                    <p class="description">上の画像は文字を隠し文字にしてます。<br>
+                        普通の文字と比べると以下の通りです。</p>
+                        <img src="pic/discord-spoiler-hikaku.png" width="400" height="105" alt=" picture is None">
+                        <p>やり方:</p>
+                <code> ||ここに隠したいメッセージを入れる。||</code>
+                <p class="tyuui">この文字はクリック又は、タップすると文字を見ることができます。しかし、他のチャンネルやサーバーに移動すると元に戻ります。</p>
+                <hr id="main" noshade="noshade" size="1">
+            </div>
+            <!--引用文字の説明-->
+            <div class="inyou" id="inyou">
+                    <p class="Class">Class: <span>引用文字</span></p>
+                    <img src="pic/discord-inyou.png" width="400" height="100" alt=" picture is None">
+                    <p class="description">上の画像は文字を引用文字にしてます。<br>
+                        普通の文字と比べると以下の通りです。</p>
+                        <img src="pic/discord-inyou-hikaku.png" width="400" height="205" alt=" picture is None">
+                        <p>やり方:</p>
+                <code> > ここに引用したいメッセージを入れる。</code>
+                <p class="tyuui">この文字には<span>></span>を打った後に半角で空白を入れる必要があります。又、この記号は行の一番先頭に打たなければいけません。</p>
+                <hr id="main" noshade="noshade" size="1">
+            </div>
+
+        </div>
+    </body>
+</html>
